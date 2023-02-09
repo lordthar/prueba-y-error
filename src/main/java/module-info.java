@@ -5,6 +5,6 @@ module proyectounibanco.unibanco {
     requires org.controlsfx.controls;
     requires org.kordamp.bootstrapfx.core;
 
-    opens proyectounibanco.unibanco to javafx.fxml;
-    exports proyectounibanco.unibanco;
+    opens proyectounibanco.Model to javafx.fxml;
+    exports proyectounibanco.Model;
 }
